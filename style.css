@@ -1,0 +1,33 @@
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: peachpuff;
+}
+.item{
+    width:400px;
+    height:500px;
+    background-color: white;
+    margin:20px;
+    border-radius: 25px;
+}
+.item img{
+    border:solid;
+    border-radius: 25px;
+    border-color: black;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.item li{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.item p{
+    text-align: center;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
